@@ -38,7 +38,7 @@ header {
 }
 
 .btn {
-  position: relative;
+  position: sticky;
 }
 
 button {

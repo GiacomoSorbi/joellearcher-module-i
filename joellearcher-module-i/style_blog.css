@@ -22,3 +22,9 @@ button {
 button:hover {
   background-color: #ffb3a7;
 }
+.blog_text {
+  text-align: justify;
+}
+img {
+  float: none;
+}

@@ -64,4 +64,5 @@ button:hover {
 .services_text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
+  font-size: 12px;
 }

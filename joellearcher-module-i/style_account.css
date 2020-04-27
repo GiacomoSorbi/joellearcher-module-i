@@ -4,17 +4,14 @@
   margin: 0;
   padding: 0;
   background-color: #ffdab9;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 h2,
 h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 24px;
   text-align: center;
 }
-
-.WBWYb_form {
+.WBWYform {
   max-width: 500px;
   margin: 2rem auto;
   border: 2px solid #db5a6b;
@@ -37,12 +34,8 @@ textarea {
   font-size: 16px;
   border-radius: 5px;
 }
-
-.btn {
+.submit {
   position: relative;
-}
-
-button {
   margin-left: 20px;
   padding: 9px 25px;
   background-color: #f62459;
@@ -51,12 +44,30 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   text-transform: uppercase;
+}
+.audio_icon3 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.btn {
+  position: relative;
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px 10px;
+  background-color: #f62459;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-size: 12px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 button:hover {
   background-color: #ffb3a7;
-}
-.blog-text {
-  float: left;
 }
