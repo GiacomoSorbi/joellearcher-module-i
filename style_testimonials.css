@@ -51,11 +51,29 @@ button:hover {
 h1,
 h2 {
   margin-left: 500px;
-  margin-right: 400px;
+  margin-right: 350px;
 }
-@media (max-width: 600px) {
-  nav a {
-    font-size: 0.7em;
+@media (max-width: 715px) {
+  .bio_text {
+    margin-left: 150px;
+    margin-right: 100px;
     text-align: center;
   }
-/*work on this above
+  .social_media_icon {
+    position: relative;
+    margin-left: 275px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial_img {
+    margin-left: 150px;
+    width: 125px;
+    height: 125px;
+  }
+  .testimonial_text,
+  h1,
+  h2 {
+    margin-left: 150px;
+    margin-right: 100px;
+  }
+}
