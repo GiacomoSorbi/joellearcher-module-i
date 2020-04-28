@@ -30,8 +30,6 @@ header {
   align-items: center;
   padding: 30px 10%;
 }
-@media screen and (max-width: 970px) {
-}
 
 .nav-header {
   list-style: none;
@@ -47,6 +45,12 @@ header {
 }
 .nav-header li a:hover {
   color: #db5a6b;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 0.5em;
+  }
 }
 
 .copyright {
