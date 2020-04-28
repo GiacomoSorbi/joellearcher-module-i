@@ -1,18 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #ffdab9;
-}
-
-body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.btn {
-  position: relative;
-}
-
 button {
   margin-left: 20px;
   padding: 10px 10px;
@@ -28,4 +20,35 @@ button {
 
 button:hover {
   background-color: #ffb3a7;
+}
+.btn {
+  position: relative;
+}
+.bio_img {
+  width: 200px;
+  height: 350px;
+}
+
+.bio_text {
+  margin-left: 450px;
+  margin-right: 400px;
+  text-align: center;
+}
+
+.social_media_icon {
+  position: relative;
+  margin-left: 625px;
+  margin-bottom: 20px;
+}
+
+.testimonial_img {
+  margin-left: 500px;
+  width: 250px;
+  height: 250px;
+}
+.testimonial_text,
+h1,
+h2 {
+  margin-left: 500px;
+  margin-right: 400px;
 }

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,9 +6,28 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.btn {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 9px 25px;
+  background-color: #f62459;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #ffb3a7;
+}
 h2,
 h3 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 24px;
   text-align: center;
 }
@@ -19,7 +37,6 @@ h3 {
   margin: 2rem auto;
   border: 2px solid #db5a6b;
   padding: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border-radius: 5px;
 }
 label {
@@ -38,25 +55,10 @@ textarea {
   border-radius: 5px;
 }
 
-.btn {
-  position: relative;
+.therapy-select {
+  margin-top: 20px;
 }
 
-button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: #f62459;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  text-transform: uppercase;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-button:hover {
-  background-color: #ffb3a7;
-}
-.blog-text {
-  float: left;
+.copyright {
+  margin-bottom: 20px;
 }

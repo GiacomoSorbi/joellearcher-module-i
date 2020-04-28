@@ -3,14 +3,25 @@
   margin: 0;
   padding: 0;
   background-color: #ffdab9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 li,
 a {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
   font-size: 30px;
   color: azure;
   text-decoration: none;
+}
+p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1,
+h5,
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header {
@@ -18,6 +29,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+}
+@media screen and (max-width: 970px) {
 }
 
 .nav-header {
@@ -34,4 +47,10 @@ header {
 }
 .nav-header li a:hover {
   color: #db5a6b;
+}
+
+.copyright {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }

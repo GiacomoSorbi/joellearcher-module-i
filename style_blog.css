@@ -1,4 +1,4 @@
-body {
+* {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -23,8 +23,12 @@ button:hover {
   background-color: #ffb3a7;
 }
 .blog_text {
-  text-align: justify;
+  margin-left: 10px;
+  margin-right: 400px;
 }
-img {
+.blog_img {
   float: none;
+  margin-left: 10px;
+  width: 300;
+  height: 200;
 }

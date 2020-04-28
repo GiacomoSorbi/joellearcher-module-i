@@ -1,9 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #ffdab9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn {
+  position: relative;
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px 10px;
+  background-color: #f62459;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: #ffb3a7;
+}
+.services_text,
+h2 {
+  color: black;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.services_text,
+li {
+  font-size: 16px;
 }
 .WBWY_grid {
   display: grid;
@@ -40,29 +69,4 @@
   padding: 4px;
   background-color: white;
   border: 2px solid white;
-}
-.btn {
-  position: relative;
-}
-
-button {
-  margin-left: 20px;
-  padding: 10px 10px;
-  background-color: #f62459;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-button:hover {
-  background-color: #ffb3a7;
-}
-.services_text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
-  font-size: 12px;
 }
