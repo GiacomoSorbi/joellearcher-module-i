@@ -53,3 +53,9 @@ h2 {
   margin-left: 500px;
   margin-right: 400px;
 }
+@media (max-width: 600px) {
+  nav a {
+    font-size: 0.7em;
+    text-align: center;
+  }
+/*work on this above

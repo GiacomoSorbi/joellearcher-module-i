@@ -83,3 +83,38 @@ h6 {
   text-align: center;
   margin-left: 50px;
 }
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 0.7em;
+    text-align: center;
+  }
+  .homepage_hero_text {
+    position: absolute;
+    margin-left: 150px;
+    color: azure;
+    font-size: 10px;
+    text-align: center;
+  }
+  .btn {
+    margin-left: 160px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    position: sticky;
+  }
+
+  button {
+    padding: 20px 75px;
+    background-color: #f62459;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  button:hover {
+    background-color: #ffb3a7;
+  }
+}

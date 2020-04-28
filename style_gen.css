@@ -47,14 +47,14 @@ header {
   color: #db5a6b;
 }
 
-@media (max-width: 600px) {
-  nav a {
-    font-size: 0.5em;
-  }
-}
-
 .copyright {
   text-align: center;
   margin-left: 50px;
   margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  nav a {
+    font-size: 0.7em;
+    text-align: center;
+  }
 }
