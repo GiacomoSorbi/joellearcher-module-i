@@ -53,7 +53,7 @@ h2 {
   margin-left: 500px;
   margin-right: 350px;
 }
-a {
+#email {
   font-size: 16px;
 }
 @media (max-width: 600px) {
