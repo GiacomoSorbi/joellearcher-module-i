@@ -9,7 +9,7 @@ images.forEach(image => {
     const img = document.createElement("img");
     img.src = image.src;
     while (wbwyLightBox.firstChild) {
-      wbwyLightBo.removeChild(wbwyLightBox.firstChild);
+      wbwyLightBox.removeChild(wbwyLightBox.firstChild);
     }
     wbwyLightBox.appendChild(img);
   });
