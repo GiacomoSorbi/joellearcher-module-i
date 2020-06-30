@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  src: url(./fonts/Abel-Regular.ttf);
+}
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+.nav_button {
+  margin-left: 20px;
+  padding: 10px 10px;
+  background-color: #bd2978;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.nav_button:hover {
+  background-color: #e61eb5;
+}
+.fsh {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+}
+.fsh_image {
+  width: 700px;
+  height: 500px;
+}
+@media (max-width: 750px) {
+  .fsh_image {
+    width: 360px;
+    height: 250px;
+  }
+}

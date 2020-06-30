@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  src: url(./fonts/Abel-Regular.ttf);
+}
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: white;
+}
+
+.main-nav,
+.bottom-nav {
+  background-color: #6c376e;
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  border-bottom: solid #bda41d;
+  margin-bottom: 15px;
+  height: 70px;
+  list-style: none;
+}
+
+.bottom-nav li {
+  display: block;
+  float: left;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+.main-nav li {
+  display: block;
+  float: left;
+  margin-left: 2px;
+}
+a {
+  color: #bda41d;
+  text-decoration: none;
+}
+
+.home_image,
+.home-title,
+.home_text,
+.home_bookings {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home_image {
+  margin-top: 50px;
+}
+
+.home-title,
+.home_text {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+}
+.home_bookings_button {
+  padding: 20px 75px;
+  background-color: #bd2978;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+.home_bookings_button:hover {
+  background-color: #e61eb5;
+}
+
+.booking_button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .main-nav,
+  .bottom-nav {
+    height: 90px;
+  }
+  .home_bookings_button {
+    padding: 10px 40px;
+    background-color: #bd2978;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+    font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+  }
+  .home_image {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+  }
+}

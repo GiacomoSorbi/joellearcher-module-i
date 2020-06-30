@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script async="" src="./javascript.js"></script>
+    <link rel="stylesheet" href="./css/styles_all.css" />
+    <link rel="stylesheet" href="./css/style_booking.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bookings</title>
+  </head>
+  <body>
+    <nav id="main-nav" class="main-nav">
+      <a href="./index.html">Home</a>
+      <a href="./services.html">Services</a>
+      <a href="./testimonials.html">Testimonials</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./freeselfhelp.html">Free Self Help</a>
+    </nav>
+    <main>
+      <div class="booking_title">
+        <h2 class="booking_title_1">
+          Please fill out the form below
+        </h2>
+        <h3 class="booking_title_2">
+          Already have an account? <a href="account.html">Please click here</a>
+        </h3>
+      </div>
+
+      <div id="booking_form" ;>
+        <form id="form_1" action="./bookingsubmission.html">
+          <div class="form-name">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" oninput="formChecker()" />
+          </div>
+          <div class="email-address">
+            <label for="email-address">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              oninput="formChecker()"
+            />
+          </div>
+          <div class="t-phone">
+            <label for="telephone">Telephone: </label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              oninput="formChecker()"
+            />
+          </div>
+          <div class="therapy-select" style="width:200px;">
+            <label for="Therapy options"></label>
+            <select name="therapy_options">
+              <option value="0">Please select an option:</option>
+              <option value="1">Indian Head Massage - £25 = 30 min </option>
+              <option value="2">Seated Chair Massage- £30 = 30 min </option>
+              <option value="3"
+                >Neck/Shoulder/Back Massage - £30 = 30 min</option
+              >
+              <option value="4">Neck/Shoulder/Back Massage - £45 = 1hr</option>
+              <option value="5">Hand/Arm Massage - £30 = 30 min </option>
+              <option value="6">Hand/Arm DELUXE Massage - £40 = 1 Hr</option>
+              <option value="7">Leg/Feet Massage - £30 = 30 min</option>
+              <option value="8">Leg/Feet DELUXE Massage - £40 = 1 Hr </option>
+              <option value="9">Mentor session - £45 = 1 Hr </option>
+              <option value="10">Meditation 121 - £7 = 1Hr Meditation</option>
+              <option value="11">Meditation Group - £8 = 1Hr Meditation</option>
+              <option value="12"
+                >Corporate - half day 4 hours = £500 (£125 ph)
+              </option>
+              <option value="13">General public/121 - 2 hours = £25 pp </option>
+              <option value="14"
+                >15 min - Free (complimentary phone or Zoom call)
+              </option>
+              <option value="15"
+                >Prices TBC - How to create and sell online courses
+              </option>
+            </select>
+          </div>
+          <label for="start">Date:</label>
+
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2020-06-20"
+            min="2020-06-01"
+            max="2020-12-31"
+          />
+
+          <div class="app_time">
+            <label for="app_time">Time: </label>
+
+            <input type="time" name="time" id="time" min="8.30" max="17.00" />
+          </div>
+
+          <div class="form_message">
+            <label for="form_message">Message</label>
+            <textarea
+              name="message"
+              id="form_message"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Request booking</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <nav id="bottom-nav" class="bottom-nav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./testimonials.html">Testimonials</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./freeselfhelp.html">Free Self Help</a></li>
+      </nav>
+    </footer>
+  </body>
+</html>

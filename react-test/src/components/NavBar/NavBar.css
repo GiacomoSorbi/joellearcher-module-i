@@ -1,0 +1,22 @@
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #9984b5;
+}
+
+nav ul li {
+  display: block;
+  padding: 45px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #40cf80;
+}
+nav ul li .active {
+  color: #cf4082;
+}
