@@ -1,8 +1,0 @@
-.btn {
-  background-color: aquamarine;
-  border-radius: 12px;
-}
-.btn:hover {
-  background-color: yellow;
-  transition: background-color 0.3s linear;
-}
