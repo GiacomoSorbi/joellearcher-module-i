@@ -22,29 +22,16 @@
 .nav_button:hover {
   background-color: #e61eb5;
 }
-.blog_title,
-.blog_text,
-.blog_date {
+.fsh {
   font-family: Abel-Regular, Arial, Helvetica, sans-serif;
-  src: url(./fonts/Abel-Regular.ttf);
 }
-
-.blog_title .blog_date {
-  margin: 5px;
+.fsh_image {
+  width: 700px;
+  height: 500px;
 }
-.blog_text {
-  margin-bottom: 60px;
-  min-width: 25em;
-  max-width: 35em;
-}
-
-.blog_image {
-  width: 300px;
-  height: 200px;
-}
-@media (max-width: 600px) {
-  .blog_text {
-    min-width: 15em;
-    max-width: 25em;
+@media (max-width: 750px) {
+  .fsh_image {
+    width: 360px;
+    height: 250px;
   }
 }

@@ -1,64 +1,70 @@
+@font-face {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  src: url(./fonts/Abel-Regular.ttf);
+}
 * {
+  margin: 1px;
+  padding: 1px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #ffdab9;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.btn {
-  position: relative;
-  margin-left: 100px;
-  margin-top: 50px;
-}
-
-button {
-  margin-left: 10px;
-  padding: 9px 25px;
-  background-color: #f62459;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  text-transform: uppercase;
-}
-
-button:hover {
-  background-color: #ffb3a7;
-}
-h2,
-h3 {
-  font-size: 24px;
-  text-align: center;
-}
-
-.WBWYb_form {
-  max-width: 500px;
-  margin: 2rem auto;
-  border: 2px solid #db5a6b;
-  padding: 2rem;
+input {
+  display: block;
+  width: 100%;
+  border: 2px solid black;
+  padding: 0.25rem;
+  font-size: 16px;
   border-radius: 5px;
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
 }
 label {
   display: block;
   width: 100%;
   padding: 1rem 0 0.25rem;
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
 }
 
-input,
-textarea {
-  display: block;
-  width: 100%;
-  border: 2px solid azure;
-  padding: 0.25rem;
-  font-size: 16px;
+#booking_form {
+  margin: 0 auto;
+  width: 500px;
+  border: solid #bda41d;
   border-radius: 5px;
-}
-
-.therapy-select {
-  margin-top: 20px;
-}
-
-.copyright {
   margin-bottom: 20px;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 9px 25px;
+  background-color: #bd2978;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-color: #e61eb5;
+}
+
+.booking_title,
+.booking_title_1,
+.booking_title_2,
+#form_1,
+#bookingsubmissiontext {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+}
+
+#bookingsubmissiontext {
+  margin-bottom: 450px;
+}
+@media (max-width: 600px) {
+  #booking_form {
+    margin: 0 auto;
+    width: 300px;
+  }
+  #therapy_options option {
+    width: 100px;
+  }
 }
