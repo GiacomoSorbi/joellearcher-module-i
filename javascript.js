@@ -25,7 +25,6 @@ let formEmail = document.getElementById("email");
 let formPhone = document.getElementById("telephone");
 let formPassword = document.getElementById("password");
 let formButton = document.querySelector(".btn");
-let formSubmit = document.querySelector(".form_2");
 let regEx = /\S+@\S+\.\S+/;
 
 function formChecker() {
