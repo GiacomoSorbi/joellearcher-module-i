@@ -56,6 +56,12 @@ label {
   font-family: Abel-Regular, Arial, Helvetica, sans-serif;
 }
 
+.booking_title,
+.booking_title_1,
+.booking_title_2 {
+  text-align: center;
+}
+
 #bookingsubmissiontext {
   margin-bottom: 450px;
 }

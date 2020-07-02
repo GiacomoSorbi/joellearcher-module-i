@@ -29,13 +29,14 @@
   src: url(./fonts/Abel-Regular.ttf);
 }
 
-.blog_title .blog_date {
+.blog_title,
+.blog_date {
   margin: 5px;
 }
 .blog_text {
   margin-bottom: 60px;
-  min-width: 25em;
-  max-width: 35em;
+  min-width: 20em;
+  max-width: 25em;
 }
 
 .blog_image {
@@ -45,6 +46,6 @@
 @media (max-width: 600px) {
   .blog_text {
     min-width: 15em;
-    max-width: 25em;
+    max-width: 23em;
   }
 }

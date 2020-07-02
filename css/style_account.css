@@ -24,6 +24,11 @@
   background-color: #e61eb5;
 }
 
+.account_title {
+  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
 input {
   display: block;
   width: 100%;
