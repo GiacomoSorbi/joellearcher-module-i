@@ -47,8 +47,3 @@ function formChecker2() {
     formButton.style.backgroundColor = "#bd2978";
   }
 }
-
-formSubmit.addEventListener("submit", function(event) {
-  event.preventDefault();
-  console.log(event);
-});
