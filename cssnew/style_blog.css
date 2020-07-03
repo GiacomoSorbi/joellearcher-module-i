@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
@@ -25,7 +25,7 @@
 .blog_title,
 .blog_text,
 .blog_date {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 

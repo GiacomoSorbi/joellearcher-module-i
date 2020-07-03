@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
@@ -25,24 +25,8 @@
 }
 
 .account_title {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   text-align: center;
-}
-
-input {
-  display: block;
-  width: 100%;
-  border: 2px solid black;
-  padding: 0.25rem;
-  font-size: 16px;
-  border-radius: 5px;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
-}
-label {
-  display: block;
-  width: 100%;
-  padding: 1rem 0 0.25rem;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
 }
 
 #form_2 {
@@ -54,6 +38,22 @@ label {
   margin-bottom: 175px;
 }
 
+input {
+  display: block;
+  width: 100%;
+  border: 2px solid black;
+  padding: 0.25rem;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
+}
+label {
+  display: block;
+  width: 100%;
+  padding: 1rem 0 0.25rem;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
+}
+
 .btn {
   margin-left: 10px;
   padding: 9px 25px;
@@ -63,14 +63,14 @@ label {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   text-transform: uppercase;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
 }
 
 .btn:hover {
   background-color: #ffb3a7;
 }
 #accountsubmissiontext {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   margin-bottom: 450px;
 }
 @media (max-width: 600px) {

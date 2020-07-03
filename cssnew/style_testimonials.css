@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
@@ -34,7 +34,7 @@
 .bio_text {
   text-align: center;
   margin: auto;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   min-width: 25em;
   max-width: 35em;
 }
@@ -48,7 +48,7 @@
 .testimonial_name,
 .testimonial_text {
   text-align: center;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
 }
 
 .testimonial_title {
@@ -62,7 +62,7 @@
 .testimonial_text {
   text-align: center;
   margin: auto;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   min-width: 25em;
   max-width: 35em;
 }

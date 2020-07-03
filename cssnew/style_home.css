@@ -10,14 +10,11 @@
 html {
   height: 100%;
 }
-body {
-  background-color: white;
-}
 
 .main-nav,
 .bottom-nav {
   background-color: #6c376e;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   border-bottom: solid #bda41d;
   margin-bottom: 15px;
@@ -60,7 +57,7 @@ a {
 
 .home-title,
 .home_text {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
 }
 .home_bookings_button {
   padding: 20px 75px;
@@ -70,7 +67,7 @@ a {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   text-transform: uppercase;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
 .home_bookings_button:hover {
@@ -95,11 +92,11 @@ a {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     text-transform: uppercase;
-    font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+    font-family: Abel-Regular, Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
   }
-  .home_image {
-    height: 100%;
+  .home_image img {
+    max-width: 100%;
     display: flex;
     justify-content: center;
   }

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
@@ -24,7 +24,7 @@
 }
 
 .services_text {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   text-align: center;
   list-style-type: none;
   margin: 10px;
@@ -45,11 +45,12 @@ hr {
   align-content: center;
   gap: 10px;
   height: 100vh;
+  margin-bottom: -110px;
 }
 
 .WBWY_grid img {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   cursor: pointer;
   border: solid#bda41d 3px;
 }
@@ -69,8 +70,8 @@ hr {
 }
 
 #wbwyLightBox img {
-  max-width: 90%;
-  max-height: 80%;
+  max-width: 50%;
+  max-height: 50%;
   padding: 4px;
   background-color: white;
   border: 3px solid #bda41d;

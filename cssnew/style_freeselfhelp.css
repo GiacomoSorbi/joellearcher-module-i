@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
@@ -7,6 +7,7 @@
   padding: 1px;
   box-sizing: border-box;
 }
+
 .nav_button {
   margin-left: 20px;
   padding: 10px 10px;
@@ -23,7 +24,7 @@
   background-color: #e61eb5;
 }
 .fsh {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
 }
 .fsh_image {
   width: 700px;

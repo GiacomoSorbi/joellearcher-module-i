@@ -1,23 +1,25 @@
 @font-face {
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   src: url(./fonts/Abel-Regular.ttf);
 }
 * {
-  margin: 1px;
   padding: 1px;
   box-sizing: border-box;
 }
+
 html {
   height: 100%;
 }
 body {
   background-color: white;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .main-nav,
 .bottom-nav {
   background-color: #6c376e;
-  font-family: Abel-Regular, Arial, Helvetica, sans-serif;
+  font-family: Abel-Regular, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   border-bottom: solid #bda41d;
   margin-bottom: 15px;
